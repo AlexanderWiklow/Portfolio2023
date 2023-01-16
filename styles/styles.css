@@ -3,6 +3,11 @@
   letter-spacing: 0.2rem;
 }
 
+html {
+  scroll-behavior: smooth;
+  min-width: 30rem;
+}
+
 /* Style the body */
 body {
   font-family: "Roboto", sans-serif;
@@ -115,7 +120,7 @@ h2 {
 }
 
 .about-text {
-  width: 60%;
+  /* width: 60%; */
 }
 
 .tech {
