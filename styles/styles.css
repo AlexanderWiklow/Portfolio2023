@@ -307,10 +307,12 @@ section {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   overflow: hidden;
   /* border: 1px solid rgb(46, 45, 45); */
+  filter: contrast(1) grayscale(5);
 }
 
 .card:hover {
   box-shadow: 0 0 10px rgba(0, 0, 0, 1.2);
+  filter: grayscale(0%);
 }
 
 .card-text {
@@ -323,7 +325,6 @@ section {
   height: 60%;
   /* height: 15rem; */
   object-fit: cover;
-  filter: contrast(1) grayscale(5);
 }
 
 .card-text {
@@ -337,7 +338,7 @@ section {
 }
 
 .card-image:hover {
-  filter: grayscale(0%);
+  /* filter: grayscale(0%); */
 }
 
 .card-image img {
