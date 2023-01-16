@@ -125,7 +125,7 @@ h2 {
 .tech img {
   width: 50px;
   height: 50px;
-  background-color: green;
+  /* background-color: green; */
 }
 
 /* ======TIMELINE======= */
@@ -273,7 +273,7 @@ h2 {
 
 .card {
   /* background-color: green; */
-  width: 30%;
+  width: 45%;
   min-width: 20rem;
   /* max-width: 30rem; */
   background-color: #fff;
@@ -335,8 +335,14 @@ h2 {
 }
 
 .form-container {
-  width: 50%;
+  /* width: 50%; */
   /* margin: 50px auto; */
+}
+
+.sendBtn a {
+  text-decoration: none;
+  list-style: none;
+  color: white;
 }
 
 .feedback-input {
@@ -396,11 +402,11 @@ textarea {
 
 .social-media {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   /* align-items: center;
   justify-content: center; */
   gap: 2rem;
-  margin: 5rem;
+  margin: 2rem;
   /* background-color: red; */
 }
 
