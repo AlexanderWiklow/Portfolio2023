@@ -32,11 +32,10 @@ h2 {
   height: 20rem;
   padding: 60px;
   text-align: center;
-  background: #1abc9c;
   color: white;
-  background-image: url("../assets/images/hero-img-3.jpg");
+  background-image: url("../assets/images/hero-img-4.jpg");
 
-  filter: grayscale(100%);
+  /* filter: grayscale(100%); */
 
   /* background-repeat: no-repeat; */
   background-size: cover;
@@ -44,13 +43,21 @@ h2 {
 
 #profile-pic {
   /* position: absolute; */
-  border-radius: 50%;
-  width: 200px;
-  height: 200px;
+  /* border-radius: 50%; */
+  /* height: 15rem; */
+  /* width: 200px;
+  height: 200px; */
   border: 5px solid #fff;
   /* box-shadow: 0 0 0 5px #1abc9c; 
   */
   /* z-index: 4; */
+}
+
+.header img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
 }
 
 /* Style the top navigation bar */
@@ -284,7 +291,7 @@ h2 {
 }
 
 .card:hover {
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 1.2);
 }
 
 .card-text {
@@ -310,6 +317,11 @@ h2 {
 .card-image img {
   height: 100%;
   width: 100%;
+}
+
+.card a {
+  text-decoration: none;
+  color: black;
 }
 
 /* .projects {
