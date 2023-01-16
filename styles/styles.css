@@ -15,6 +15,12 @@ body {
   margin: 0;
 }
 
+/* Solid border */
+.solid {
+  border-top: 3px solid rgb(239, 239, 239);
+  margin: 2rem;
+}
+
 h1 {
   margin: 0;
   font-size: 4rem;
@@ -154,7 +160,7 @@ h2 {
   content: "";
   position: absolute;
   width: 6px;
-  background-color: rgb(81, 149, 73);
+  background-color: rgba(109, 163, 220, 0.537);
   top: 0;
   bottom: 0;
   left: 50%;
@@ -317,7 +323,7 @@ section {
   height: 60%;
   /* height: 15rem; */
   object-fit: cover;
-  filter: grayscale(100%);
+  filter: contrast(1) grayscale(5);
 }
 
 .card-text {
