@@ -273,7 +273,7 @@ section {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   overflow: hidden;
   /* border: 1px solid rgb(46, 45, 45); */
-  filter: contrast(1) grayscale(5);
+  /* filter: contrast(1) grayscale(5); */
 }
 
 .card:hover {
