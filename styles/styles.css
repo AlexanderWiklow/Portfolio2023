@@ -259,6 +259,7 @@ section {
   flex-wrap: wrap;
   justify-content: space-between;
   gap: 2rem;
+  margin: 2rem;
   /* background-color: red; */
   /* border: 1px solid rgb(46, 45, 45); */
 }
@@ -304,6 +305,10 @@ section {
 .linkBtn {
   font-size: 2rem;
   width: 15rem;
+  margin: 0 auto;
+}
+
+.btnContainer {
   margin: 0 auto;
 }
 
