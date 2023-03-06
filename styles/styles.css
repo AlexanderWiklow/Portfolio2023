@@ -31,11 +31,21 @@ body {
   margin: 2rem;
 }
 
+.center {
+  text-align: center;
+  color: #16a085;
+}
+
 .title {
+  /* display: flex; */
   font-size: 3rem;
   font-weight: 700;
   margin-bottom: 1rem;
-  color: rgb(161, 161, 161);
+  color: #16a085;
+}
+
+.project-title {
+  color: black;
 }
 
 /* Header/logo Title */
@@ -238,6 +248,10 @@ body {
 
 section {
   margin-bottom: 8rem;
+}
+
+li {
+  margin-top: 2rem;
 }
 
 /* style for cards */
