@@ -242,12 +242,17 @@ body {
 
 .text {
   font-size: 2rem;
+  justify-content: center;
 }
 
 /* SECTION */
 
 section {
   margin-bottom: 8rem;
+}
+
+ul {
+  padding: 5px;
 }
 
 li {
